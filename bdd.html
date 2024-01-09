@@ -86,29 +86,34 @@
    <!-- about section start -->
    <div class="about_section layout_padding">
       <div class="container-fluid">
-         <div class="row">
             <div class="col-md-6">
                <div class="about_taital_main">
-                  <h1 class="about_taital">Base de Datos</h1>
+                  <h1 class="about_taital">Base de Datos - Facturación</h1>
+                  <p class="about_text">Tabla Cliente</p>
                   <p class="about_text">
-                     En el diagrama presentado, se describen 3 entidades: Clientes, Facturas y Productos, estableciendo relaciones entre ellas. En la entidad "Clientes", la relación con "Factura" es de uno a muchos, ya que un cliente puede tener varias facturas, pero una factura está asociada a un solo cliente. Por otro lado, en la relación entre "Factura" y "Productos", observamos una conexión de muchos a muchos, permitiendo que varias facturas contengan múltiples productos y, a su vez, varios productos puedan estar presentes en distintas facturas.
-                  </p>
-                  <p class="about_text">
-                     La entidad "Clientes" incluye tres atributos: la clave (clave primaria), el nombre del cliente y su dirección. En la entidad "Facturas", la clave primaria es num_factura, y se registran la fecha_fac, num_pedido, fecha_vencimiento, junto con atributos derivables como subtotal, IVA y total, calculados dinámicamente al generar el total.
-                  </p>
-                  <p class="about_text">
-                     En la entidad "Productos", se utiliza cod_producto como clave primaria, incluyendo información sobre existencia, precio_unitario y la descripción de los productos.
-                     Finalmente, en la relación muchos a muchos, se encuentra "detalles_factura", con un atributo derivable llamado importe y un atributo normal que indica la cantidad de productos.
-                  </p>
-                  <p class="about_text">
-                     Finalmente, en la relación muchos a muchos, se encuentra "detalles_factura", con un atributo derivable llamado importe y un atributo normal que indica la cantidad de productos.
-                  </p>
-               </div>
+                     La tabla de cliente es un componente esencial en una base de datos que gestiona información de clientes. Esta tabla almacena datos detallados y relevantes sobre cada cliente, lo que permite a una empresa o entidad mantener un registro organizado y accesible de sus relaciones con los clientes.</p>
+                  <hr>
+                  <div>
+                     <div><img src="images/tablacliente.jpeg" class="about_img"></div>
+                  </div>
+                  <hr>
+                  <p class="about_text">Tabla Factura</p>
+                  <p class="about_text">La tabla de factura es un componente fundamental en una base de datos de facturación. Es la estructura que almacena y organiza la información relacionada con las transacciones financieras de una empresa o entidad. En ella se registran los detalles específicos de cada factura emitida, lo que permite un seguimiento detallado de las ventas, los servicios prestados o los bienes entregados a clientes o entidades externas.</p>
+                  <div>
+                     <div><img src="images/tablafactura.jpeg" class="about_img"></div>
+                  </div>
+                  <p class="about_text">Tabla Producto</p>
+                  <p class="about_text">La tabla de productos es un componente clave en una base de datos que gestiona inventarios, ventas y detalles sobre los productos ofrecidos por una empresa o entidad. Esta tabla almacena información detallada sobre cada artículo que la empresa comercializa.</p>
+                  <div>
+                     <div><img src="images/tablaproducto.jpeg" class="about_img"></div>
+                  </div>
+                  <p class="about_text">Tabla Detalle Factura</p>
+                  <p class="about_text">La tabla de detalle factura es crucial en una base de datos de facturación, ya que almacena la información detallada de los productos o servicios incluidos en una factura específica. Esta tabla actúa como un vínculo entre la tabla de facturas y la tabla de productos, registrando los elementos individuales que componen una transacción.</p>
+                  <div>
+                     <div><img src="images/tabladetallefactura.jpeg" class="about_img"></div>
+                  </div>
+               </div>  
             </div>
-            <div class="col-md-6 padding_right_0">
-               <div><img src="images/diagrama.png" class="about_img"></div>
-            </div>
-         </div>
       </div>
    </div>
    <!-- about section end -->
