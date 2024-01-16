@@ -473,10 +473,22 @@ button {
 
 /* about section start */
 
-.about_section {
+.about_section1 {
     width: 100%;
     float: left;
     padding-bottom: 90px;
+    padding: 80px 0;
+    color: #fff;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/upec.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about_section{
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+    padding: 80px 0;
 }
 
 .about_taital_main {
